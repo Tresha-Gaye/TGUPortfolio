@@ -46,11 +46,11 @@ View the deployed application by [clicking this link](https://tresha-gaye.github
 ![Rows](./assets/images/work-product.jpg)
 
 **An example of improper application of flex**
---![No flex](./assets/images/resume.jpg)
+![No flex](./assets/images/resume.jpg)
 
 **An example of unresponsive webpage @ 768px width**
 
---![not responsive](./assets/images/screen-size.jpg)
+![not responsive](./assets/images/screen-size.jpg)
 
 ## Opportunities
 - I'm looking forward to improving this application in the near future, which will require careful study and practice of the techniques that were not completely or properly deployed as required.
