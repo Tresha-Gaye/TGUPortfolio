@@ -20,8 +20,14 @@ View the deployed application by [clicking this link](https://tresha-gaye.github
 
 **Visualization**
 - I started this application by creating a wireframe of the mock-up, which helped in identifying how the HTML file would be arranged and styled in CSS.
---![Mockup](./assets/images/02-advanced-css-homework-demo.gif)
---![Wireframe](./assets/images/portfolio-wireframe.jpg)
+
+**This is the Mockup**
+
+![Mockup](./assets/images/02-advanced-css-homework-demo.gif)
+
+**This is the wireframe**
+
+![Wireframe](./assets/images/portfolio-wireframe.jpg)
 
 **Organization**
 - Relying on the wireframe, I arranged the body of the HTML file into several sections using semantic elements: `header`, `section`, `footer`.
@@ -34,9 +40,17 @@ View the deployed application by [clicking this link](https://tresha-gaye.github
 - The main challenge I faced was time, which was due to a slavish, over-reliance on the mock-up design, which was incredibly difficult to mimic from scratch. As a result, the functionlity suffered, and I ran out of time to incorporate working media queries to make the application responsive. Now I understand the mobile-first approach, which I will try to incorporate earlier in the process to make my applications responsive.
 - Implementing the Flexbox technique was alos challenging, and so I may have overused `div`s in order to apply functional styling. 
 - I did not successfully implement the 'media queries' and 'CSS variables' techniques because I spent so much time on the Flexbox technique.
---![An example of boxes within boxes](./assets/images/work-product.jpg)
---![An example of improper application of flex](./assets/images/resume.jpg)
---![An example of unresponsive webpage @ 768px width](./assets/images/screen-size.jpg)
+
+**An example of boxes within boxes**
+
+![Rows](./assets/images/work-product.jpg)
+
+**An example of improper application of flex**
+--![No flex](./assets/images/resume.jpg)
+
+**An example of unresponsive webpage @ 768px width**
+
+--![not responsive](./assets/images/screen-size.jpg)
 
 ## Opportunities
 - I'm looking forward to improving this application in the near future, which will require careful study and practice of the techniques that were not completely or properly deployed as required.
