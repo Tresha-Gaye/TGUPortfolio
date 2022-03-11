@@ -24,13 +24,13 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 20px 35px;
     background-color: var(--primary-color);
     z-index: 9999;   
     }
     
 .page-title {
     font-weight: bold;
+    font-size: 30px;
     color: var(--primary-color);
     margin: 0;
     padding: 10px;
@@ -72,15 +72,15 @@ header nav ul li a:hover {
 footer {
     background: var(--primary-color);
     width: 100%;
-    padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 footer h2 {
     color: var(--secondary-color);
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -112,7 +112,7 @@ footer h2 {
     position: absolute;
     bottom: 20px;
     right: 100px;
-    font-style: bold;
+    font-weight: bold;
     color: var(--primary-color);
     }
 
@@ -158,7 +158,7 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    font-size: 18px;
+    font-size: 22px;
     color: var(--primary-color);
     text-align: left;
 }
@@ -200,14 +200,14 @@ footer h2 {
     background-color: var(--tertiary-color);
 }
 
-.third-row {
+.work-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; 
     flex-grow: 2;
     border: 5px solid var(--secondary-color);
-    margin: 12px;
+    /* margin: 12px; */
     height: auto;
     padding: 10px;
 }
@@ -227,7 +227,7 @@ footer h2 {
 }
 
 .project-img img {
-    display: block;
+    display: relative;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -238,6 +238,10 @@ footer h2 {
     background: var(--secondary-color);
     color: var(--primary-color);
     cursor: pointer;
+}
+
+.project-img overlay-text {
+    position: absolute;
 }
 
 .project-info {
@@ -340,7 +344,7 @@ footer h2 {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     
-    section-title {
+    .section-title {
         padding: 30px 15px;
     }
 

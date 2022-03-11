@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha512-NZ19NrT58XPK5sXqXnnvtf9T5kLXSzGQlVZL9taZWeTBtXoN3xIfTdxbkQh6QSoJfJgpojRqMfhyqBAAEeiXcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>TGU Portfolio</title>
   </head>
@@ -10,8 +11,8 @@
 
     <!-- navigation tags - block level element -->
     <header>
-      <div class="page-title">
-        <h1>
+      <div>
+        <h1 class="page-title">
           Tresha-Gaye Ustanny
         </h1>
       </div>
@@ -53,7 +54,7 @@
             <h3>About Me</h3>
           </div>
           <div class="profile-img">
-            <img src="assets/images/tresha.jpg" alt="Tresha-Gaye Ustanny">
+            <img src="assets/images/tresha.jpg" alt="Tresha-Gaye Ustanny" class="rounded">
           </div>
         </div>
         <div class="border-box">
@@ -67,101 +68,115 @@
       </section>
 
     <!--Work Section -->
-      <section id="work" class="flex-row">
-        <div class="section-title">
-          <h3 >Work</h3>
+    <section id="work" class="flex-row">
+      <div class="section-title">
+        <h3>Work</h3>
+      </div>
+
+      <!-- Links to deployed applications -->
+
+      <div class="container-fluid border-box">
+        <div class="row">
+          <h3 class="section-text">
+              <strong>The following are samples of deployed applications.</strong>
+          </h3>
         </div>
-        <div class="work-product border-box">
-          <div class="section-text">
-            <strong>The following is a sample of deployed applications.</strong>
-          </div><br />
-          <div class="first-row" class="work-product-row">
-            <div class="project-title">
-              <div class="project-info">
+
+        <div class="container"
+          <div class="row">
+
+            
+        <!-- RunBuddy -->
+            <div class="col project-img position-relative">
+              <img src="./assets/images/hero-bg.jpg" alt="runner kneeling to lace athletic shoes" class="rounded"/>
+              <div class="carousel-caption position-absolute bottom-0 start-0">
+                <h4>
+                  <a href="https://tresha-gaye.github.io/run-buddy/" target="">Run Buddy</a>
+                </h4>
+                <p>HTML/CSS</p>
+              </div>
+            </div>
+ 
+        <!-- Project 1: Populate Music -->
+            <div class="col">
+              <div class="row">
+                <div class="col project-img  position-relative">
+                  <img src="./assets/images/populate1.jpg" alt="Populate Music screen-grab showing video and text search results for artist Adele" />
+                  <div class="carousel-caption position-absolute bottom-0 center-0"></div>
+                    <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
+                    <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+                  </div>
+                <div class="col project-img position-relative">
+                  <img src="./assets/images/citizen2.jpg" alt="Homepage of Citizenship COmmunity site" />
+                  <div class="carousel-caption position-absolute bottom-0 end-0"></div>
+                    <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
+                    <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+            
+
+
+              <!-- <div class="col work-row"
+                <div class="col-5">
+                  <div class="project-img">
+                    
+                    </div>
+                    <div class="project-text">
+                      
+                    </div>
+                  </div>
+              <div class="third-row">
+                <div class="project-text">
+                  <h4>Calculator</h4>
+                  <p>React/JavaScript/CSS</p>
+                </div>
                 <div class="project-img">
-                  <img src="./assets/images/hero-bg.jpg" alt="coastal highway with mountain in background") />
+                  <img src="./assets/images/unsplash5.jpg" alt="butterfly against a green background") />
+                </div>
+              </div>
+            </div>
+            <div class="col second-row work-product-row">
+              <div class="third-row">
+                <div class="project-img">
+                  <img src="./assets/images/unsplash5.jpg" alt="white blossoms") />
                 </div>
                 <div class="project-text">
-                  <h4>
-                    <a href="https://tresha-gaye.github.io/run-buddy/" target="">Run Buddy</a>
-                  </h4>
-                  <p>HTML/CSS</p>
+                  <h4>Pastel Puzzles</h4>
+                  <p>Mern Stack</p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="second-row" class="work-product-row">
-            <div  class="third-row">
-              <div class="project-title">
-                <div class="project-info">
-                  <div class="project-img">
-                    <img src="./assets/images/unsplash5.jpg" alt="cracked frozen surface of lake") />
-                  </div>
-                  <div class="small project-text">
-                    <h4>LED Wall</h4>
-                    <p>Node IoT</p>
-                  </div>
+              <div class="third-row">
+                <div class="project-text">  
+                  <h4>Surf Report</h4>
+                  <p>Mern/Stack</p>
                 </div>
-              </div>
-            </div>
-            <div class="third-row">
-              <div class="project-title">
-                <div class="project-info">
-                  <div class="project-text">
-                    <h4>Calculator</h4>
-                    <p>React/JavaScript/CSS</p>
-                  </div>
-                  <div class="project-img">
-                    <img src="./assets/images/unsplash5.jpg" alt="butterfly against a green background") />
-                  </div>
+                <div class="project-img">
+                  <img src="./assets/images/unsplash5.jpg" alt="colorful rays of light from single source" />
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="second-row" class="work-product-row">
-            <div class="third-row">
-              <div class="project-title">
-                <div class="project-info">
-                  <div class="project-img">
-                    <img src="./assets/images/unsplash5.jpg" alt="white blossoms") />
-                  </div>
-                  <div class="project-text">
-                    <h4>Pastel Puzzles</h4>
-                    <p>Mern Stack</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="third-row">
-              <div class="project-title">
-                <div class="project-info">
-                  <div class="project-text">  
-                    <h4>Surf Report</h4>
-                    <p>Mern/Stack</p>
-                  </div>
-                  <div class="project-img">
-                    <img src="./assets/images/unsplash5.jpg" alt="colorful rays of light from single source" />
-                  </div>
-                </div>
-              </div>
+              </div>  
             </div> 
           </div>
-      </section>
-
-    <!--Contact Me section-->
-    <section id="contact-me" class="flex-row">
-      <div class="section-title">
-        <h3>Contact Me</h3>
-      </div>
-      <div class="section-text contact-info border-box">
-        <p> 860-719-5051 </p> 
-        <p> treshagaye@gmail.com</p> 
-        <p> Github </p> 
-        <p> Twitter </p> 
-      </div>
+        </div>
+      </section> -->
+    </div>
     </section>
 
-    <section id="resume" class="flex-row">
+    <!--Contact Me section-->
+      <section id="contact-me" class="flex-row">
+        <div class="section-title">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="section-text contact-info border-box">
+          <p> 860-719-5051 </p> 
+          <p> treshagaye@gmail.com</p> 
+          <p> Github </p> 
+          <p> Twitter </p> 
+        </div>
+      </section>
+
+      <section id="resume" class="flex-row">
         <div class="section-title">
           <h3>Resume</h3>
         </div>
@@ -182,7 +197,8 @@
               </ul>
             </p>
         </div>
-    </section>
+      </div>
+      </section>
   </main>
 
 
