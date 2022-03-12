@@ -222,15 +222,14 @@ footer h2 {
     font-size: 18px;
 }
 
-.project-img {
+/* .project-img {
     max-width: 100%;
-}
+} */
 
 .project-img img {
-    display: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 500px;
     height: auto;
 }
 

@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha512-NZ19NrT58XPK5sXqXnnvtf9T5kLXSzGQlVZL9taZWeTBtXoN3xIfTdxbkQh6QSoJfJgpojRqMfhyqBAAEeiXcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>TGU Portfolio</title>
-  </head>
-  <body>
 
-    <!-- navigation tags - block level element -->
-    <header>
-      <div>
-        <h1 class="page-title">
-          Tresha-Gaye Ustanny
-        </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css"
+    integrity="sha512-NZ19NrT58XPK5sXqXnnvtf9T5kLXSzGQlVZL9taZWeTBtXoN3xIfTdxbkQh6QSoJfJgpojRqMfhyqBAAEeiXcA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>TGU Portfolio</title>
+</head>
+
+<body>
+
+  <!-- navigation tags - block level element -->
+  <header>
+    <div>
+      <h1 class="page-title">
+        Tresha-Gaye Ustanny
+      </h1>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+        <li>
+          <a href="#resume">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--Hero-->
+  <section class="hero">
+    <div class="hero-title">
+      <h2>Esse Non Videri</h2>
+    </div>
+  </section>
+
+  <!--Main sections-->
+
+
+  <main class="content">
+
+    <!--About Me/Bio section-->
+    <section id="about-me" class="flex-row">
+      <div class="about-items">
+        <div class="section-title">
+          <h3>About Me</h3>
+        </div>
+        <div class="profile-img">
+          <img src="assets/images/tresha.jpg" alt="Tresha-Gaye Ustanny" class="rounded">
+        </div>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-                  
-
-    <!--Hero-->
-    <section class="hero">
-        <div class="hero-title">
-          <h2>Esse Non Videri</h2>
+      <div class="border-box">
+        <div class="section-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, soluta optio possimus delectus, accusantium
+            quisquam voluptatem molestiae eius rem repellat recusandae, dignissimos ducimus? Aut aperiam non explicabo
+            ullam, fugit error.
+          </p><br />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo atque, laboriosam ut ab enim porro eveniet
+            temporibus quod sint, dignissimos nobis, deleniti deserunt sapiente iusto ipsum eum necessitatibus
+            exercitationem.
+          </p>
         </div>
+      </div>
     </section>
-
-    <!--Main sections-->
-  
-        
-    <main class="content">
-
-      <!--About Me/Bio section-->
-      <section id="about-me" class="flex-row">
-        <div class="about-items">
-          <div class="section-title">
-            <h3>About Me</h3>
-          </div>
-          <div class="profile-img">
-            <img src="assets/images/tresha.jpg" alt="Tresha-Gaye Ustanny" class="rounded">
-          </div>
-        </div>
-        <div class="border-box">
-          <div class="section-text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, soluta optio possimus delectus, accusantium quisquam voluptatem molestiae eius rem repellat recusandae, dignissimos ducimus? Aut aperiam non explicabo ullam, fugit error.
-              </p><br />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo atque, laboriosam ut ab enim porro eveniet temporibus quod sint, dignissimos nobis, deleniti deserunt sapiente iusto ipsum eum necessitatibus exercitationem.
-              </p>
-          </div>
-        </div>
-      </section>
 
     <!--Work Section -->
     <section id="work" class="flex-row">
@@ -78,47 +86,50 @@
       <div class="container-fluid border-box">
         <div class="row">
           <h3 class="section-text">
-              <strong>The following are samples of deployed applications.</strong>
+            <strong>The following are samples of deployed applications.</strong>
           </h3>
         </div>
 
-        <div class="container"
-          <div class="row">
+        <div class="container">
+          <!-- </div> <div class="row"> -->
 
-            
-        <!-- RunBuddy -->
-            <div class="col project-img position-relative">
-              <img src="./assets/images/hero-bg.jpg" alt="runner kneeling to lace athletic shoes" class="rounded"/>
-              <div class="carousel-caption position-absolute bottom-0 start-0">
-                <h4>
-                  <a href="https://tresha-gaye.github.io/run-buddy/" target="">Run Buddy</a>
-                </h4>
-                <p>HTML/CSS</p>
-              </div>
-            </div>
- 
-        <!-- Project 1: Populate Music -->
-            <div class="col">
-              <div class="row">
-                <div class="col project-img  position-relative">
-                  <img src="./assets/images/populate1.jpg" alt="Populate Music screen-grab showing video and text search results for artist Adele" />
-                  <div class="carousel-caption position-absolute bottom-0 center-0"></div>
-                    <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
-                    <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
-                  </div>
-                <div class="col project-img position-relative">
-                  <img src="./assets/images/citizen2.jpg" alt="Homepage of Citizenship COmmunity site" />
-                  <div class="carousel-caption position-absolute bottom-0 end-0"></div>
-                    <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
-                    <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
-                  </div>
-                </div>
+
+          <!-- RunBuddy -->
+          <div class="col project-img position-relative">
+            <img src="./assets/images/hero-bg.jpg" alt="runner kneeling to lace athletic shoes" class="rounded" />
+            <div class="carousel-caption position-absolute bottom-0 start-0">
+              <h4>
+                <a href="https://tresha-gaye.github.io/run-buddy/" target="">Run Buddy</a>
+              </h4>
+              <p>HTML/CSS</p>
             </div>
           </div>
-            
+
+          <!-- Project 1: Populate Music -->
+          <!-- <div class="col"> -->
+            <div class="row">
+              <div class="col project-img  position-relative">
+                <img src="./assets/images/populate1.jpg"
+                  alt="Populate Music screen-grab showing video and text search results for artist Adele" />
+                <div class="carousel-caption position-absolute bottom-0 center-0">
+                  <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
+                  <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+                </div>
+              </div>
+              <div class="col project-img position-relative">
+                <img src="./assets/images/citizen2.jpg" alt="Homepage of Citizenship COmmunity site" />
+                <div class="carousel-caption position-absolute bottom-0 end-0">
+                  <h4><a href="https://boiling-fortress-60978.herokuapp.com/topic/1" target="">Citizenship Community</h4>
+                  <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+                  </div>
+              </div>
+            </div>
+          <!-- </div> -->
+        </div>
 
 
-              <!-- <div class="col work-row"
+
+        <!-- <div class="col work-row"
                 <div class="col-5">
                   <div class="project-img">
                     
@@ -160,54 +171,55 @@
           </div>
         </div>
       </section> -->
-    </div>
+      </div>
     </section>
 
     <!--Contact Me section-->
-      <section id="contact-me" class="flex-row">
-        <div class="section-title">
-          <h3>Contact Me</h3>
-        </div>
-        <div class="section-text contact-info border-box">
-          <p> 860-719-5051 </p> 
-          <p> treshagaye@gmail.com</p> 
-          <p> Github </p> 
-          <p> Twitter </p> 
-        </div>
-      </section>
-
-      <section id="resume" class="flex-row">
-        <div class="section-title">
-          <h3>Resume</h3>
-        </div>
-        <div class="resume-text section-text border-box">
-          <h4>Certifications</h4>
-            <p>
-              <ul>
-                <li>helvetica1</li>
-                <li>helvetica2</li>
-                <li>helvetica3</li>
-              </ul>
-            </p>
-          <h4>Technologies</h4>
-            <p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </p>
-        </div>
+    <section id="contact-me" class="flex-row">
+      <div class="section-title">
+        <h3>Contact Me</h3>
       </div>
-      </section>
+      <div class="section-text contact-info border-box">
+        <p> 860-719-5051 </p>
+        <p> treshagaye@gmail.com</p>
+        <p> Github </p>
+        <p> Twitter </p>
+      </div>
+    </section>
+
+    <section id="resume" class="flex-row">
+      <div class="section-title">
+        <h3>Resume</h3>
+      </div>
+      <div class="resume-text section-text border-box">
+        <h4>Certifications</h4>
+        <p>
+        <ul>
+          <li>helvetica1</li>
+          <li>helvetica2</li>
+          <li>helvetica3</li>
+        </ul>
+        </p>
+        <h4>Technologies</h4>
+        <p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        </p>
+      </div>
+      </div>
+    </section>
   </main>
 
 
-    <!-- footer -->
-    <footer>
-      <h2>❤️ Made with love by Tresha-Gaye Ustanny.</h2>
-    </footer>
-    <!-- footer end -->
+  <!-- footer -->
+  <footer>
+    <h2>❤️ Made with love by Tresha-Gaye Ustanny.</h2>
+  </footer>
+  <!-- footer end -->
 
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
