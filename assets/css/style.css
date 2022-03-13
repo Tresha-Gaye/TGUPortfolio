@@ -274,7 +274,7 @@ footer h2 {
 
 .contact-info p {
     margin: auto;
-    border-bottom: 3px solid;
+    /* border-bottom: 3px solid; */
 }
 
 .resume-text {

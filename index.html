@@ -91,41 +91,61 @@
         </div>
 
         <div class="container">
-          <!-- </div> <div class="row"> -->
+          <div class="row">
 
 
-          <!-- RunBuddy -->
-          <div class="col project-img position-relative">
-            <img src="./assets/images/hero-bg.jpg" alt="runner kneeling to lace athletic shoes" class="rounded" />
-            <div class="carousel-caption position-absolute bottom-0 start-0">
-              <h4>
-                <a href="https://tresha-gaye.github.io/run-buddy/" target="">Run Buddy</a>
-              </h4>
-              <p>HTML/CSS</p>
-            </div>
-          </div>
+          <!-- Sample classwork: RunBuddy -->
 
-          <!-- Project 1: Populate Music -->
-          <!-- <div class="col"> -->
+          <div class="col">
             <div class="row">
-              <div class="col project-img  position-relative">
-                <img src="./assets/images/populate1.jpg"
-                  alt="Populate Music screen-grab showing video and text search results for artist Adele" />
-                <div class="carousel-caption position-absolute bottom-0 center-0">
-                  <h4><a href="//https://jlcunningham2101.github.io/Populate-Music/" target="">Populate Music</h4>
-                  <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+              <div class="col">
+                <div class="card" style="width: 30rem;">
+                  <img src="./assets/images/hero-bg.jpg" alt="runner kneeling to lace athletic shoes" class=img-fluid/>
+                  <div class="card-body">
+                    <h5 class="card-title">Run Buddy</h5>
+                    <p class="card-text">This responsive app uses HTML & CSS</p>
+                    <a href="https://tresha-gaye.github.io/run-buddy/" target="" class="btn btn-primary">Visit this page</a>
+                  </div>
                 </div>
               </div>
-              <div class="col project-img position-relative">
-                <img src="./assets/images/citizen2.jpg" alt="Homepage of Citizenship COmmunity site" />
-                <div class="carousel-caption position-absolute bottom-0 end-0">
-                  <h4><a href="https://boiling-fortress-60978.herokuapp.com/topic/1" target="">Citizenship Community</h4>
-                  <p>JavaScript/Server Side API (YouTube &AudioDB)</p>
+         
+          <br />
+          <br />
+
+          <!-- Project 1: Populate Music -->
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 30rem;">
+                    <img src="./assets/images/populate1.jpg"
+                    alt="Populate Music screen-grab showing video and text search results for artist Adele" />
+                    <div class="card-body">
+                      <h5 class="card-title">Populate Music</h5>
+                      <p class="card-text">This app uses JavaScript/Server Side API (YouTube &AudioDB) to quickly search for artist bio & artist album info.</p>
+                      <a href="//https://jlcunningham2101.github.io/Populate-Music/" target=""  class="btn btn-primary">Visit this page</a>
+                    </div>
                   </div>
+                </div>
+
+           <br />
+
+        <!-- Project 2: Citizenship Community -->
+                <div class="col">
+                  <div class="card" style="width: 30rem;">
+                    <img src="./assets/images/citizen2.jpg" alt="Homepage of Citizenship COmmunity site" />
+                    <div class="card-body">
+                      <h5 class="card-title">Citizenship Community</h5>
+                      <p class="card-text">This RESTful app is created by NodeJS/Express with Sequelize, MySql2, SocketIO and Google CivicInfo Api</p>
+                      <a href="https://boiling-fortress-60978.herokuapp.com/login" target="" class="btn btn-primary">Visit this page</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          <!-- </div> -->
-        </div>
+
+
+
+
 
 
 
@@ -180,35 +200,52 @@
         <h3>Contact Me</h3>
       </div>
       <div class="section-text contact-info border-box">
-        <p> 860-719-5051 </p>
-        <p> treshagaye@gmail.com</p>
-        <p> Github </p>
-        <p> Twitter </p>
+        <p> 
+          <a href="tel:860-719-5051">860-719-5051</a> 
+        </p>
+        <p> 
+          <a href = "mailto: treshagaye@gmail.com">Send Email</a>
+        </p>
+        <p> 
+          <a href="https://github.com/Tresha-Gaye" target="Github">Github</a>
+        </p>
+        <p> 
+          <a href="https://twitter.com/treshagaye" target="Twitter">Twitter</a>
+        </p>
       </div>
     </section>
 
-    <section id="resume" class="flex-row">
-      <div class="section-title">
+    <section id="resume" class="flex-row container-fluid">
+      <div class="row section-title">
         <h3>Resume</h3>
       </div>
-      <div class="resume-text section-text border-box">
+      <div class="col resume-text section-text border-box">
         <h4>Certifications</h4>
         <p>
         <ul>
-          <li>helvetica1</li>
-          <li>helvetica2</li>
-          <li>helvetica3</li>
+          <li><strong>Advanced Project Management</strong> | Stanford Center for Professional Development <strong>2017</strong></li>
+          <li><strong>Full-Stack Web Development</strong> | UCONN Coding Bootcamp <strong>(pending 2022)</strong> </li>
+          <!-- <li>Some other awesome certification</li> -->
         </ul>
         </p>
+      </div>
+      <div class="col">
         <h4>Technologies</h4>
         <p>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Web/Server-side API/li>
+          <li>NodeJS</li>
+          <li>Express</li>
+          <li>OOP/TDD</li>
+          <li>MVC</li>
+          <li>MySql/Sequelize</li>
         </ul>
         </p>
       </div>
-      </div>
+  
     </section>
   </main>
 
