@@ -274,7 +274,6 @@ footer h2 {
 
 .contact-info p {
     margin: auto;
-    /* border-bottom: 3px solid; */
 }
 
 .resume-text {
@@ -331,9 +330,6 @@ footer h2 {
         width: 80%;
     }
 
-    #contact-info .section-tile {
-        border-bottom: 5px solid black;
-    }
 
     .first-row .second-row .third-row {
         display: block;
