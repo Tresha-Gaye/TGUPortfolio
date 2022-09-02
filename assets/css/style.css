@@ -280,6 +280,15 @@ footer h2 {
     width: auto;
 }
 
+#cert-row {
+    padding-right: 25px;
+}
+
+#tech-row {
+    padding-left: 25px;
+}
+
+
 /* utilities */
 
 .flex-row {
